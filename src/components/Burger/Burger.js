@@ -1,7 +1,7 @@
 import React from 'react'
 import classes from './Burger.css'
 import BurgerIngredient from './BurgerIngredient/BurgerIngredient'
-import BurgerBuilder from '../BurgerBuilder/BurgerBuilder'
+
 
 
 const burger = (props) =>{
@@ -16,7 +16,7 @@ const burger = (props) =>{
 
         }, [])
 
-        if (transformedIngredients.length ==0 ){
+        if (transformedIngredients.length ===0 ){
             transformedIngredients = <p> Please start adding Ingredients</p>
         }
 
